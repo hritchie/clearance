@@ -1,5 +1,5 @@
 When /^I install dependencies$/ do
- step "I successfully run `bundle install --local`"
+  step "I successfully run `bundle install --local`"
 end
 
 When "I have a project with clearance and the following gems:" do |table|
