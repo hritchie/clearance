@@ -8,7 +8,7 @@ end
 
 When "I have a project with clearance" do
   Bundler.with_original_env do
-    step "I successfully run `bundle exec rails new testapp --skip-bundle`"
+    step "I successfully run `bundle exec rails new testapp --skip-bundle --skip-javascript --skip-sprockets`"
   end
 
   steps %Q{
