@@ -38,4 +38,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'shoulda-matchers', '1.2.0'
   s.add_development_dependency 'sqlite3', '1.3.6'
   s.add_development_dependency 'timecop', '0.3.5'
+  s.add_development_dependency 'turn', '~> 0.8.3'
 end
